@@ -13,7 +13,7 @@ Este projeto implementa um sistema de classificação automática de pragas em p
 | Nome | RA | Email |
 |------|----|-------|
 | Eduardo Honorio Friaca | 10408959 | [preencher] |
-| Felipe Jiao | 10408852 | [preencher] |
+| Felipe Jiao | 10408852 | felipejiao@gmail.com |
 | Hao Yue Zheng | 10408948 | [preencher] |
 | Samuel Zheng | 10395781 | [preencher] |
 
