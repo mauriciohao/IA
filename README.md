@@ -12,10 +12,10 @@ Este projeto implementa um sistema de classificação automática de pragas em p
 
 | Nome | RA | Email |
 |------|----|-------|
-| Eduardo Honorio Friaca | 10408959 | [preencher] |
-| Felipe Jiao | 10408852 | felipejiao@gmail.com |
-| Hao Yue Zheng | 10408948 | z986908048@gmail.com |
-| Samuel Zheng | 10395781 | liweizheng0818@gmail.com |
+| Eduardo Honorio Friaca | 10408959 | 10408959@mackenzista.com.br|
+| Felipe Jiao | 10408852 | 10408852@mackenzista.com.br |
+| Hao Yue Zheng | 10408948 | 10408948@mackenzista.com.br |
+| Samuel Zheng | 10395781 | 10395781@mackenzista.com.br |
 
 ## Objetivos
 
