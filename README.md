@@ -25,35 +25,6 @@ Este projeto implementa um sistema de classificação automática de pragas em p
 - Alcançar acurácia superior a 70% na classificação
 
 ## Estrutura do Projeto
-.
-├── README.md
-├── .gitignore
-├── notebooks/
-│   ├── N1_PragaCafe_EDA_Preparacao.ipynb     # EDA + preparação (Parte 2 / N1)
-│   └── N2_Treino_Avaliacao.ipynb             # (placeholder) treino + métricas (N2)
-├── src/
-│   ├── data_prep/
-│   │   ├── voc_to_imagefolder.py             # VOC (JPEGImages+Annotations) → ImageFolder (classes)
-│   │   └── gen_crops_from_voc.py             # (opcional) crops por bounding boxes → ImageFolder
-│   ├── training/
-│   │   └── train_classifier.py               # (N2) treino com ResNet/MobileNet e avaliação
-│   └── utils/
-│       ├── transforms.py                     # transforms de imagem (resize/normalize/augment)
-│       └── metrics.py                        # precisão/recall/F1, matriz de confusão
-├── reports_n1/
-│   ├── class_counts.csv                      # contagem por classe (EDA)
-│   ├── dataset_card.md                       # resumo das decisões de preparação
-│   ├── figures/
-│   │   ├── distribuicao_top_classes.png      # gráfico de distribuição (Top-N)
-│   │   └── exemplo_<classe>.png              # amostras visuais salvas
-│   └── splits/
-│       ├── train.csv                         # listas estratificadas (path, class_idx, class_name)
-│       ├── val.csv
-│       └── test.csv
-├── data/                                     # (IGNORADO no Git)
-│   ├── data_ip102_raw/                       # ZIP extraído (VOC): JPEGImages/ e Annotations/
-│   └── data_ip102/
-│       ├── images/                           # ImageFolder final (classes) — usado no N1
-│       └── images_crops/                     # (opcional) ImageFolder com crops por objeto
-└── models/                                   # (IGNORADO no Git) pesos treinados (.pth) — N2
+O repositório é organizado para separar claramente notebooks, código-fonte, artefatos do N1, dados locais e pesos de modelos. Isso facilita a reprodução dos resultados, a avaliação do professor e a evolução do trabalho no N2 sem poluir o Git com arquivos grandes.
 
+A pasta notebooks concentra os cadernos Jupyter. O N1_PragaCafe_EDA_Preparacao.ipynb executa toda a etapa do primeiro bimestre: extração/organização do dataset (VOC → ImageFolder), análise exploratória (contagens, gráficos, exemplos), definição dos transforms e criação dos splits estratificados 70/15/15. Um segundo caderno, N2_Treino_Avaliacao.ipynb, fica reservado para o desenvolvimento e a avaliação do classificador no segundo bimestre (treino com Transfer Learning, métricas e matriz de confusão).
