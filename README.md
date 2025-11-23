@@ -28,3 +28,9 @@ Este projeto implementa um sistema de classificação automática de pragas em p
 O repositório é organizado para separar claramente notebooks, código-fonte, artefatos do N1, dados locais e pesos de modelos. Isso facilita a reprodução dos resultados, a avaliação do professor e a evolução do trabalho no N2 sem poluir o Git com arquivos grandes.
 
 A pasta notebooks concentra os cadernos Jupyter. O N1_PragaCafe_EDA_Preparacao.ipynb executa toda a etapa do primeiro bimestre: extração/organização do dataset (VOC → ImageFolder), análise exploratória (contagens, gráficos, exemplos), definição dos transforms e criação dos splits estratificados 70/15/15. Um segundo caderno, N2_Treino_Avaliacao.ipynb, fica reservado para o desenvolvimento e a avaliação do classificador no segundo bimestre (treino com Transfer Learning, métricas e matriz de confusão).
+
+## Dataset
+
+Este repositório inclui um conjunto de arquivos de dados clássicos utilizados como referência em projetos de Machine Learning e análise estatística. Entre eles estão versões simplificadas do MNIST, contendo dígitos manuscritos para tarefas de classificação; o conjunto California Housing, usado em problemas de regressão envolvendo características de moradias; e o Anscombe’s Quartet, conhecido por demonstrar a importância da visualização de dados mesmo quando estatísticas numéricas são idênticas.
+
+Esses arquivos são úteis para demonstrar técnicas de pré-processamento, análise exploratória e testes de modelos. O dataset principal do projeto — o IP102 — é utilizado separadamente para o treinamento do modelo de classificação de pragas agrícolas.
